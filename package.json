@@ -25,7 +25,8 @@
     "test:coverage": "jest --coverage",
     "build:types": "tsc",
     "build:types:watch": "tsc --watch",
-    "lint": "npm run build:types"
+    "lint": "npm run build:types",
+    "tauri": "tauri"
   },
   "dependencies": {
     "@apihero/fetch": "^0.1.0",
@@ -72,6 +73,7 @@
     "@cloudflare/workers-types": "^2.2.2",
     "@remix-run/dev": "^1.2.3",
     "@tailwindcss/forms": "^0.4.0",
+    "@tauri-apps/cli": "^1.5.11",
     "@types/color": "^3.0.3",
     "@types/jest": "^27.4.0",
     "@types/lodash-es": "^4.17.6",
