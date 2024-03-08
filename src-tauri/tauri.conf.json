@@ -7,7 +7,7 @@
     "distDir": "../build"
   },
   "package": {
-    "productName": "jsonhero",
+    "productName": "Loupe",
     "version": "0.1.0"
   },
   "tauri": {
@@ -58,7 +58,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "jsonhero.app",
+        "title": "Loupe",
         "width": 800
       }
     ]
